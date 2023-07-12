@@ -1,0 +1,258 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.active {
+    transition: 3s;
+    text-decoration: underline;
+    color: #7a7aff;
+}
+
+.header {
+    background-color: #7a7aff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    font-size: 30px;
+    box-shadow: 0 0 12px black;
+    font-weight: 900;
+    color: white;
+    font-family: monospace;
+}
+
+.inp label {
+    font-size: 22px;
+}
+
+.inp input {
+    padding: 5px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 11px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    font-family: system-ui;
+    margin: 6px;
+    margin-left: 19px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+table {
+    margin: auto;
+    width: 700px;
+    box-shadow: 0 0 4px black;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+
+th {
+    background-color: #cacaca;
+    width: 100px;
+    font-size: 22px;
+    padding: 4px 0px;
+}
+
+td {
+    text-align: start;
+    height: 0px;
+    font-size: 18px;
+    padding: 6px 3px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.Edit {
+    background-color: blue;
+}
+
+.Delete {
+    background-color: red;
+}
+
+.btns a {
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 4px;
+    padding: 1px 8px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+
+.id {
+    width: 30px;
+}
+
+a {
+    transition: all 3s;
+}
+
+.head {
+    margin-left: 10px;
+    letter-spacing: 0px;
+    word-spacing: -5px;
+}
+
+.inp {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 670px;
+    margin: auto;
+}
+
+.sec button {
+    color: white;
+    background-color: black;
+    padding: 2px 8px;
+    font-size: 19px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sec .text {
+    font-size: 28px;
+}
+
+
+/* add ------------>>*/
+.add,
+#edit {
+    top: -130px;
+    transition: 0.2s;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 40%;
+    margin: auto auto;
+    width: 500px;
+    min-height: 100px;
+    height: auto;
+    font-size: smaller;
+    border-radius: 5px;
+    box-shadow: 0 0 20px black;
+    border: 1px solid;
+    visibility: hidden;
+    padding: 15px;
+
+}
+
+.sadd {
+    transition: 0.2s;
+    visibility: visible;
+    top: 28%;
+
+}
+
+.b {
+    width: 329px;
+    height: 33px;
+    border: 1px solid black;
+    margin-right: 1px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0 3px;
+}
+
+.names {
+    font-weight: 600;
+    font-size: 18px;
+    word-spacing: -5px;
+}
+
+.a {
+    border-bottom: 1px solid black;
+    padding: 1.2px 3px;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+
+.e {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.c {
+    text-align: center;
+    font-size: 22px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    width: 213px;
+    cursor: pointer;
+}
+
+.form {
+    margin-top: 6px;
+}
+
+.d {
+    width: 100%;
+    height: 28px;
+    margin-right: 1px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 17px;
+    font-weight: 900;
+    padding: 0 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+img {
+    width: 28px;
+    height: 24px;
+    position: absolute;
+    top: 4px;
+    right: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* edit-------------- >>>*/
+.span {
+    background-color: black;
+    width: 15px;
+    height: 3px;
+}
